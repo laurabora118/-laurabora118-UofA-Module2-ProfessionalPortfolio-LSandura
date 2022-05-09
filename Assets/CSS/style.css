@@ -95,6 +95,7 @@ p, li {
     font-size: 22pt;
     text-align: center;
     justify-content: center;
+    text-indent: 2%;
 }
 
 @media screen and (max-width: 800px) {
