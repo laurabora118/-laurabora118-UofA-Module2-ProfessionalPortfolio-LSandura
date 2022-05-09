@@ -1,0 +1,113 @@
+
+.main-header {
+    width: 100%;
+    border: 3px solid rgb(148, 64, 197);
+    background-color:rgb(245, 234, 248);
+    text-indent: 3%;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    color: rgb(148, 64, 197);
+    font-size: 22pt;
+}
+.navlinks {
+    color:  rgb(148, 64, 197);
+    text-decoration: underline;
+    font-size: 16pt;    
+    width: 25%;
+    padding: 60px;
+}
+
+.h2-section {
+    justify-content: right;
+    width: 100%;
+    border: 3px solid rgb(148, 64, 197);
+    top: 50px;
+    right: 100px;
+    margin: 30px auto;
+    text-indent: 0%;
+    overflow-wrap: normal;
+    position: relative;
+    text-align: right;
+    word-wrap: normal;
+    text-align: right;
+}
+
+aside {
+    flex: 1;
+    border: 3px solid rgb(148, 64, 197);
+    background-color:rgb(245, 234, 248);
+    padding: 80px;
+    text-align: left;
+    width: 4in;
+    height: 3in;
+  }
+
+section {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+    margin: 30px auto;
+    border: 3px solid black;
+  }  
+  
+.card {
+    padding: 20px;
+    background-color:rgb(245, 234, 248);
+    color:  rgb(148, 64, 197);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 2px 2px 4px #a9dfb7b2;
+    margin: 30px auto;
+    width: 5in;
+    height: 5in;
+    text-align: right;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+      
+h1, p {
+    color: rgb(148, 64, 197);
+    font-size: 50px;
+}
+      
+p, li {
+    font-size: 24px;
+    font-family: cursive;
+}
+
+
+  
+.footer {
+    width: 100%;
+    border: 3px solid rgb(148, 64, 197);
+    background-color:rgb(245, 234, 248);
+    text-indent: 3%;
+    display: flex;
+    padding: 30px;
+    color: rgb(148, 64, 197);
+    font-size: 22pt;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    main, header, .main-header, .h2-section, .footer, .navlinks, .card, aside {
+        background: #e9f070;
+        flex-direction: column;
+        color: rgb(35, 153, 51);
+    }
+    aside {
+      order: 1;
+    } 
+    .card {
+        width: 80%;
+        color: rgb(35, 153, 51);
+    }
+}
