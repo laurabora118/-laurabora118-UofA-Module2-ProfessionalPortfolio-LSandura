@@ -3,9 +3,7 @@
 
 This is a portfolio page for Laura Sandura to showcase skills.
 
-The goals is to show my name, photo or avatar and interactive links to sections, links to my work and how to contact me that is also accessible on any device.
-
-The project gave no starter code.
+The goals are to showcase my name, photo and interactive links to multiple sections including links to my work and how to contact me. Also, make the site accessible on any device or screen. The project gave no starter code.
 
 Resources utilized:
 1-UofA Bootcamp lesson material
