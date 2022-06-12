@@ -1,6 +1,6 @@
 
 .main-header {
-    width: 100%;
+    width: 98%;
     border: 3px solid rgb(148, 64, 197);
     background-color:rgb(245, 234, 248);
     text-indent: 3%;
@@ -18,9 +18,13 @@
     padding: 60px;
 }
 
+#linkreference {
+    text-size-adjust: 16 pt;
+}
+
 .h2-section {
     justify-content: right;
-    width: 100%;
+    width: 98%;
     border: 3px solid rgb(148, 64, 197);
     top: 50px;
     right: 100px;
@@ -64,12 +68,13 @@ section {
     flex: 0 0 300px;
     box-shadow: 2px 2px 4px #a9dfb7b2;
     margin: 30px auto;
-    width: 5in;
+    width: 12in;
     height: 5in;
     text-align: right;
     flex-wrap: wrap;
     flex-direction: column;
-
+    float: right;
+    position: relative;
 }
       
 h1, p {
@@ -85,17 +90,18 @@ p, li {
 
   
 .footer {
-    width: 100%;
+    width: 98%;
     border: 3px solid rgb(148, 64, 197);
     background-color:rgb(245, 234, 248);
-    text-indent: 3%;
     display: flex;
     padding: 30px;
     color: rgb(148, 64, 197);
     font-size: 22pt;
     text-align: center;
     justify-content: center;
-    text-indent: 2%;
+    display: inline; 
+    float: left;
+    width: 99%;
 }
 
 @media screen and (max-width: 800px) {
